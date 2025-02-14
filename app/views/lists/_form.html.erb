@@ -1,0 +1,4 @@
+<%= simple_form_for @list do |f| %>
+  <%= f.input :name, wrapper_html: { class: 'form-group' } %>
+  <%= f.submit 'Submit', class: 'btn btn-success mt-2' %>
+<% end %>
